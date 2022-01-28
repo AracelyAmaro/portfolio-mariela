@@ -1,24 +1,60 @@
-/* :root {
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Roboto:wght@400;700&display=swap');
+
+:root {
     --color-rose: #b08ead;
-} */
-/* *{
+}
+*{
     text-decoration: none;
     list-style: none;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     
-} */
-.nav-bar{
-    background-color: white;
-    color: var(--color-rose);
-    padding: 25px;
-    height: 120px;
+}
+.logo{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
+.nav-bar{
+    background-color: white;
+    padding: 0px 25px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0% 6%;
+}
+.nav-bar-menu{
+    display: flex;    
+}
 .nav-bar-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.nav-bar-link a{
+    color: var(--color-rose);
     font-size: 24px;
     font-family: 'Cormorant Garamond', serif;
+}
+
+.nav-bar-link::after{
+    content: '';
+    height: 4px;
+    width: 0%;
+    background: var(--color-rose);
+    transition: 0.4s ease-in-out;
+}
+.nav-bar-link:hover::after{
+    width: 100%;
+}
+.carrito{
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+.carrito:hover{
+    opacity: 0.7;
 }
