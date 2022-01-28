@@ -1,0 +1,75 @@
+/* <---------SEGUNDA-SECCION--------->*/
+.segunda-pantalla{
+    /* height: 100vh; */
+    padding-bottom : 75px;
+}
+.encabezado{
+    margin:auto;
+    padding: 100px 100px;
+    display: flex;
+    gap: 15px;
+    width: 65%;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    color: #b99bb6;
+    letter-spacing: 2px;
+}
+.encabezado .parrafo{
+    line-height: 38px;
+    font-size: 25px;
+    color: var(--color-rose-oscuro);
+}
+.boton{
+    color: #b99bb6;
+    font-size: 11px;
+    padding: 15px 20px;
+    border: 1px #b99bb6 solid;
+    border-radius: 2em;
+}
+.boton:hover{
+    background-color: #b99bb6;
+    color: #fff;
+}
+
+/* CARDS */
+.seccion-card{
+    display: flex;
+    margin:0% 6%; 
+    color: white;
+}
+.card .title{
+    color: #fff;
+}
+.article{
+    background-color: #ceb3cb;
+    margin: 20px;
+    margin-top: 0px;
+}
+.seccion-card img{
+    width: 100%;
+    max-width: 378px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.seccion-card img:hover{
+    transform: scale(1.1);
+}
+.contenedor-img{
+    overflow: hidden;
+}
+.description-2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.itallic{
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+}
+.description-2 , .itallic{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}

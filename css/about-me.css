@@ -1,0 +1,22 @@
+/* <---------TERCERA-SECCION--------->*/
+.tercera-pantalla{
+    height: 824px;
+}
+.tercera-pantalla .fondo{
+    background-color:#ceb3cb;
+}
+.tercera-pantalla .contenedor-img{
+    display: flex;
+    justify-content: end;
+    margin: 40px 180px;
+}
+.tercera-pantalla .container-ppal img{
+    width: auto;
+    height: 650px;
+    background-size: cover;
+}
+
+.tercera-pantalla .container-card{
+    justify-content: start;
+    left: 180px;
+}
