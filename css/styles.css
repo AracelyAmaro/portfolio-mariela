@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Roboto:wght@400;700&display=swap');
 @import url(blog-seccion.css);
 @import url(banner.css);
 @import url(about-me.css);
-@import url(seccions.css/);
+@import url(seccions.css);
 
 :root {
     --color-rose: #b08ead; 
     --color-rose-oscuro: #5f4d5d;
+    --bordes-cuadro:#d6bbd3;
+    --gris:#b0b0b0;
 }
 *{
     text-decoration: none;

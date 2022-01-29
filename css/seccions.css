@@ -1,0 +1,42 @@
+.cuarta-pantalla{
+    margin: 7%;
+}
+.cuarta-pantalla  p{
+    margin-bottom: 10px;
+}
+.cuarta-pantalla .parrafo{
+    font-size: 24px;
+    font-weight: 400;
+}
+.container-cuadro img{
+    border: 20px solid var(--bordes-cuadro);
+    width: 100%;
+    height: auto;
+}
+.cuadro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px;
+    gap: 25px;
+}
+.container-description{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container-container{
+    width: 80%;
+}
+.container-container p:first-of-type {
+    margin-top: 25px;
+}
+.container-container .boton{
+    top: 20px;
+}
+.boton{
+    margin: 10px;
+    position: relative;
+}
+
