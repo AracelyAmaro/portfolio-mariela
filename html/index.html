@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Mariela</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
@@ -56,21 +57,22 @@
         </div>    
 
         <div class="seccion-card">
-            <div class="article">                
+            <div class="article" id="article-1" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">                
                 <div class="contenedor-img">
                     <img class="zoom" src="../img/img-2.png">
                 </div>
                     <p class="description-2">About me</p>
                     <a href="#" class="btn itallic">Learn more</a>
             </div>
-            <div class="article">
+            
+            <div class="article" id="article-2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" data-aos-delay ="300" >
                 <div class="contenedor-img">
                     <img class="zoom" src="../img/img-01.png">
                 </div>
                 <p class="description-2">My products</p>
                 <a href="#" class="btn itallic ">Learn more</a>
             </div>
-            <div class="article">
+            <div class="article" id="article-3" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500" data-aos-delay ="600" >
                 <div class="contenedor-img">
                     <img class="zoom" src="../img/img-4.png" >
                 </div>
@@ -83,10 +85,10 @@
     <div class="tercera-pantalla">
         <div class="fondo"> </div> 
         <div class="container-ppal">
-            <div class="contenedor-img">
+            <div class="contenedor-img" data-aos="fade-left" data-aos-duration="500"  data-aos-offset="300">
                 <img src="../img/img-about-me.png" >
             </div>
-            <div class="container-card">
+            <div class="container-card" data-aos="fade-right" data-aos-duration="500"  data-aos-offset="200">
                 <div class="card">
                     <h1 class="title">ABOUT ME</h1>
                     <p class="description">I'am a trendy Cushion Designer</p>
@@ -98,7 +100,7 @@
 
     <div class="cuarta-pantalla">
 
-        <seccion class="cuadro">
+        <seccion class="cuadro" data-aos="fade-right" data-aos-duration="600">
             <div class="container-description">
                 <div class="container-container">
                     <h1 class="title"> BEGINNINGS</h1>
@@ -114,7 +116,7 @@
             </div>
         </seccion>
 
-        <seccion class="cuadro">
+        <seccion class="cuadro" data-aos="fade-left" data-aos-duration="600">
             <div class="container-cuadro">
                 <img src="../img/carrera.jpg" >
             </div>
@@ -131,7 +133,7 @@
             </div>    
         </seccion>
 
-        <seccion class="cuadro">
+        <seccion class="cuadro" data-aos="fade-right" data-aos-duration="600">
             <div class="container-description">
                 <div class="container-container">
                     <h1 class="title">PRODUCTS</h1>
@@ -150,7 +152,7 @@
 
     <div class="quinta-pantalla">
         
-            <div class="container-productos">
+            <div class="container-productos" data-aos="fade-up" data-aos-duration="600">
                 
                 <div class="producto">
                     <div class="contenedor-img">
@@ -210,22 +212,22 @@
         
     </div>  
     <div class="footer">
-        <div class="primera-seccion">
-            <div class="box">
-                <div class="container-icon">
+        <div class="primera-seccion" data-aos="fade-up" data-aos-duration="600">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+                <div class="container-icon" >
                     <img src="../icon/casita.png" >
                 </div>
                 <h1 class="p-footer">Safe shopping</h1>
                 <p>Buy with confidence</p>
             </div>
-            <div class="box">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300">
                 <div class="container-icon">
                     <img src="../icon/fast.png" >
                 </div>
                 <h1 class="p-footer">Fast shopping</h1>
                 <p>Get your product fast</p>
             </div>
-            <div class="box">
+            <div class="box" data-aos="zoom-in" data-aos-delay="400">
                 <div class="container-icon">
                     <img src="../icon/like.png" >
                 </div>
@@ -267,11 +269,13 @@
         
         <div class="tercera-seccion">
             <p>©2022  |  Image <strong>Licensing</strong>  | Developed By <strong><a class="color-inherit" href="https://www.linkedin.com/in/aracely-amaro-899833228/">Aracely Amaro</a></strong>
-                Designed By Pablo Ramos  | Powered By <strong>Webflow</strong> 
+              |  Designed By Pablo Ramos  | Powered By <strong>Webflow</strong> 
             </p>
             
         </div>
         
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/app.js"></script>
 </body>
 </html>
