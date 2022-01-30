@@ -5,6 +5,7 @@
 @import url(seccions.css);
 @import url(products.css);
 @import url(image.css);
+@import url(footer.css);
 
 :root {
     --color-rose: #b08ead; 
