@@ -16,7 +16,7 @@
     color: #b99bb6;
     letter-spacing: 2px;
 }
-.encabezado .parrafo{
+ .parrafo{
     line-height: 38px;
     font-size: 25px;
     color: var(--color-rose-oscuro);
@@ -48,17 +48,9 @@
     margin-top: 0px;
 }
 .seccion-card img{
-    width: 100%;
     max-width: 378px;
-    cursor: pointer;
-    transition: transform 0.3s;
 }
-.seccion-card img:hover{
-    transform: scale(1.1);
-}
-.contenedor-img{
-    overflow: hidden;
-}
+
 .description-2{
     font-size: 25px;
     font-weight: 600;

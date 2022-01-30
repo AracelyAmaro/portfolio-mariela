@@ -1,0 +1,29 @@
+.quinta-pantalla{
+    margin:10%;
+}
+.producto .parrafo{
+    font-weight: 500;
+}
+.producto{
+    margin-bottom: 20px;
+}
+.precio{
+    font-size: 16;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--gris);
+}
+.container-productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5em;
+}
+.producto .parrafo{
+    line-height: 30px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}

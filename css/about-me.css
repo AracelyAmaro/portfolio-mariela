@@ -1,4 +1,5 @@
 /* <---------TERCERA-SECCION--------->*/
+
 .tercera-pantalla{
     height: 824px;
 }
@@ -8,7 +9,8 @@
 .tercera-pantalla .contenedor-img{
     display: flex;
     justify-content: end;
-    margin: 40px 180px;
+    margin: 40px;
+    margin-right: 15%;
 }
 .tercera-pantalla .container-ppal img{
     width: auto;
@@ -17,6 +19,7 @@
 }
 
 .tercera-pantalla .container-card{
-    justify-content: start;
-    left: 180px;
+    justify-content: center;
+    left: -210px;
+    width: 100%;
 }
