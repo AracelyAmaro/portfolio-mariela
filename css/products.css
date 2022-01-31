@@ -27,3 +27,16 @@
     display: flex;
     justify-content: center;
 }
+@media (max-width:568px) {
+    .quinta-pantalla{
+        margin: 5%;
+        top: 20px;
+    }
+    .container-productos{
+        /* margin-top: 20px; */
+        grid-template-columns: repeat(2,1fr);
+    }
+    .quinta-pantalla{
+        margin-top: 80px;
+    }
+}

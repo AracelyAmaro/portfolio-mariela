@@ -47,8 +47,6 @@
     padding-bottom: 0;
     display: flex;  
     align-items: center;
-    /* justify-content: space-between; */
-
 }
 .seccions{
     padding-left: 60px;
@@ -64,9 +62,6 @@
 .redes{
     display: flex;
 }
-
-
-
 .segunda-seccion .logo-footer img{
     width: 110px;
     height: auto;
@@ -107,4 +102,40 @@
     font-weight: 400;
 
     padding-top: 10px;
+}
+@media (max-width:768px) {
+    .primera-seccion{
+        padding: 5% 5%;
+    }
+    .segunda-seccion{
+        padding: 3%;
+    }
+    .seccions{
+        padding-left: 25px;
+    }
+}
+@media (max-width:568px) {
+    .footer .primera-seccion{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .segunda-seccion{
+        flex-direction: column;
+    }
+    .segunda-seccion .col-2{
+        padding-top: 15px;
+        flex-direction: column;
+    }
+    .redes{
+        padding-top: 15px;
+        justify-content: center;
+    }
+    .seccions{
+        padding: 0px 40px;
+        justify-content: space-around;
+    }
+    .footer{
+        margin-top: 80px;
+    }
 }

@@ -22,11 +22,15 @@
     color: var(--color-rose-oscuro);
 }
 .boton{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     color: #b99bb6;
     font-size: 11px;
     padding: 15px 20px;
     border: 1px #b99bb6 solid;
     border-radius: 2em;
+    letter-spacing: 2px;
+    background: none;
 }
 .boton:hover{
     background-color: #b99bb6;
@@ -64,4 +68,20 @@
     display: flex;
     justify-content: center;
     padding: 10px;
+}
+@media (max-width:768px) {
+    .encabezado{
+    margin: 0px;
+    }
+}
+@media (max-width:568px) {
+    .seccion-card{
+        margin: 2%;
+    }
+    .article{
+        margin: 10px;
+    }
+}
+@media (max-width:320px) {
+    
 }

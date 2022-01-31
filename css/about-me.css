@@ -20,6 +20,18 @@
 
 .tercera-pantalla .container-card{
     justify-content: center;
-    left: -210px;
+    left: -150px;
     width: 100%;
+}
+@media (max-width:568px) {
+    .tercera-pantalla .contenedor-img{
+        margin:0%;
+        margin-left: 60px;
+        /* background-position: right; */
+    }
+    .tercera-pantalla .container-card{
+        margin-left: 20px;
+        
+    }
+    
 }

@@ -13,6 +13,13 @@
     --bordes-cuadro:#d6bbd3;
     --gris:#b0b0b0;
 }
+html,body
+{
+    /* evita el desborde */
+    width: 100%;
+
+    overflow-x: hidden; 
+}
 *{
     text-decoration: none;
     list-style: none;
@@ -39,7 +46,7 @@ body{
     margin: 0% 6%;
 }
 .nav-bar-menu{
-    display: flex;    
+    display: flex; 
 }
 .nav-bar-link{
     display: flex;
@@ -67,12 +74,60 @@ body{
 .carrito{
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 0px 20px;
 }
 .carrito:hover{
     opacity: 0.7;
 }
+ /* Responsive nav-bar */
+ .toggle{
+     cursor: pointer;
+     background: none;
+     color: var(--color-rose);
+     border: none;
+     font-size: 20px;
+     display: none;
+     line-height: 100px;
+     
+ }
 
+
+ @media  (max-width: 768px){
+     .nav-bar{
+         height: 100px;
+     }
+    .nav-bar-menu{
+        display: none;
+        flex-direction: column;   
+        justify-content:space-around;
+        position: absolute;
+        left: 0;
+        top: 100px;
+        width: 100%;
+        background-color: #fff;
+        height: calc(100% - 100px);
+        z-index: 1000;
+        overflow-y: auto;
+        align-items: center;
+        opacity: 0;
+
+    }
+     .activado{
+        display: flex;
+        animation: mostrarMenu 350ms ease-in-out both;
+    }
+    
+    .toggle{
+        display: block;
+       
+    }
+    @keyframes mostrarMenu {
+        from{opacity:0}
+        to{opacity:1}
+    }
+    
+ } 
 
 
 
