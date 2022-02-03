@@ -1,47 +1,43 @@
-/* <---------PRIMERA-SECCION--------->*/
-.primera-pantalla{
-    height: 120vh;
-    color: white;
-}
+ /* ----------primera-pantalla--------- */
+
+
 /* Fondo */
 .fondo{
-    height: 120vh;
+    padding: 7%;
+    width: 100%;
+    height: 126%;
+    background: linear-gradient(180deg, #c9adc6 56%, #d6bbd3 44%);
 }
-.top{
-    padding: 80px;
-    height: 56%;
-    background-color: #c9adc6;
-}
-.buttom{
-    height: 44%;
-    background-color: #d6bbd3;
-}
+
 /* Centro */
+
+.container-ppal{
+    max-width: 1215px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1000;
+}
+
 .img-ppal{
-    padding: 0px 25px;
+    margin: 0px 40px;
     position: relative;
     overflow: hidden;
     width: 80%;
+    display: flex;
+    justify-content: center;
 }
 .img-ppal img{
     background-position: right ;
     /* width: 80%; */
     height: 650px;
 }
-.container-ppal{
-    height: 750px;
-    max-width: 1215px;
-    margin:7%;
-    margin-bottom: 0%;
-    position: relative;
-    top: -830px;
-}
+
 .container-card{
+    top:100px;
+    left: 0;
+    width: 100%;
+    position: absolute;
     display: flex;
-    position: relative;
-    top: -550px;
-}
-.container-ppal .container-card{
     justify-content: end;
 }
 .card{
@@ -54,6 +50,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 0px 30px;
+
 }
 .btn{
     color: inherit;
@@ -67,9 +64,62 @@
     font-size: 45px;
     font-weight: 600;
 }
-@media (max-width:568px) {  
+.container-arrow{
+    background-color: #d6bbd3;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 0% 7%;
+    padding-top: 60px;
+}
+.arrow-left,.arrow-right{
+    background-color: var(--color-rose);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.container-arrow i{
+    color: #fff;
+    background: none;
+    font-size: 20px;
+}
+
+@media (max-width:768px) {  
     .card{
     width: 50%;
     padding: 0px 25px;
     }
+    .container-arrow{
+        padding-top: 40px;
+    }
 }
+@media (max-width:479px) {
+    .img-ppal{
+        position: static;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0%;
+    }
+    .container-card{
+        position: static;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .card{
+        width: 100%;
+        
+    }
+    .fondo{
+        padding: 7% 5%;
+    }
+    .container-arrow{
+        padding-top: 10px;
+    }
+    
+}  

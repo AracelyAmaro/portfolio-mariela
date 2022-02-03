@@ -1,5 +1,5 @@
 .cuarta-pantalla{
-    margin: 7%;
+    margin: 10%;
 }
 .cuarta-pantalla  p{
     margin-bottom: 10px;
@@ -19,12 +19,7 @@
     padding: 25px;
     gap: 25px;
 }
-/* .cuadro ::before{
-    content: '';
-    background-color: var(--bordes-cuadro);
-    height: 10px;
-    width: 5px;
-} */
+
 .container-description{
 
     display: flex;
@@ -32,9 +27,7 @@
     justify-content: center;
     align-items: center;
 }
-.container-container{
-    width: 80%;
-}
+
 .container-container p:first-of-type {
     margin-top: 25px;
 }

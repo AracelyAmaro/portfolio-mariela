@@ -17,7 +17,7 @@
     letter-spacing: 2px;
 }
  .parrafo{
-    line-height: 38px;
+    line-height: 30px;
     font-size: 25px;
     color: var(--color-rose-oscuro);
 }
@@ -73,8 +73,6 @@
     .encabezado{
     margin: 0px;
     }
-}
-@media (max-width:568px) {
     .seccion-card{
         margin: 2%;
     }
@@ -82,6 +80,21 @@
         margin: 10px;
     }
 }
-@media (max-width:320px) {
-    
+
+@media (max-width:479px) {
+    .parrafo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .seccion-card{
+        display: block;
+    }
+    .seccion-card img{
+        max-width: none;
+    }
+    .article{
+        margin: 40px;
+    }
 }

@@ -40,3 +40,9 @@
         margin-top: 80px;
     }
 }
+@media (max-width:479px) {
+    .container-productos{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0% 5%;
+    }
+}

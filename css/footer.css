@@ -139,3 +139,18 @@
         margin-top: 80px;
     }
 }
+@media (max-width:479px) {
+    .seccions{
+        padding-top: 20px;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .seccions li{
+        display: flex;
+        justify-content: center;
+    }
+    .segunda-seccion{
+        padding-top: 40px;
+    }
+}
